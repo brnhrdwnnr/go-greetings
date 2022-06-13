@@ -1,13 +1,13 @@
 package go_greetings
 
-func SayGoodMorning() string {
-	return "Good morning"
+func SayGoodMorning(name string) string {
+	return "Good morning " + name
 }
 
-func SayGoodNight() string {
-	return "Good night"
+func SayGoodNight(name string) string {
+	return "Good night " + name
 }
 
-func SayHello() string {
-	return "Hello"
+func SayHello(name string) string {
+	return "Hello " + name
 }
